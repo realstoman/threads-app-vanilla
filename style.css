@@ -65,7 +65,7 @@ h1 {
 
 /* Mobile sizing */
 #app .main-app {
-	background-color: #000000;
+	background-color: #111;
 	max-width: 350px;
 	height: 700px;
 	display: flex;
@@ -73,13 +73,15 @@ h1 {
 	overflow-y: scroll;
 	border-radius: 10px;
 	padding: 30px 20px 25px 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header section */
-#app .main-app .header .settings {
+#app .main-app .header .settings,
+#app .main-app .header .bio .handles {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 #app .main-app .header .settings a {
@@ -92,6 +94,65 @@ h1 {
 
 #app .main-app .header .settings .right-section a:first-child {
 	margin-right: 10px;
+}
+
+#app .main-app .header .bio .handles .name {
+	margin-top: 7px;
+}
+
+#app .main-app .header .bio .handles .name h2 {
+	margin: 0;
+	font-size: 20px;
+	text-align: left;
+}
+
+#app .main-app .header .bio .handles .name .username {
+	display: flex;
+	justify-content: start;
+	font-size: 13px;
+}
+
+#app .main-app .header .bio .handles .name .username span:last-child {
+	margin-left: 10px;
+	background-color: #333;
+	color: #999;
+	padding: 2px 6px;
+	border-radius: 10px;
+	font-size: 10px;
+}
+
+#app .main-app .header .bio .description p {
+	font-size: 14px;
+	text-align: left;
+}
+
+#app .main-app .header .bio .followers {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 4px;
+	width: 100%;
+	text-align: left;
+}
+
+#app .main-app .header .bio .followers .users img {
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+#app .main-app .header .bio .followers .users .title p,
+#app .main-app .header .bio .followers .users .url {
+	font-size: 6px;
+}
+
+#app .main-app .header .bio .followers .users .title {
+	margin-right: 5px;
+}
+
+#app .main-app .header .bio .avatar img {
+	width: 55px;
+	border-radius: 50%;
 }
 
 #app .main-app .header .logo {
