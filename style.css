@@ -173,12 +173,36 @@ h1 {
 	padding: 3px;
 	color: #ddd;
 	font-size: 14px;
-	box-shadow: 0px 1px 2px 2px rgba(65, 63, 63, 0.1);
+	box-shadow: 0px 1px 2px 2px rgba(39, 38, 38, 0.1);
 }
 
 #app .main-app .header .cta a:hover {
 	color: #ffffff;
-	box-shadow: 0px 1px 4px 4px rgba(127, 123, 123, 0.1);
+	box-shadow: 0px 1px 4px 4px rgba(110, 107, 107, 0.1);
+}
+
+/* Tabs */
+#app .main-app .tabs {
+	margin-top: 20px;
+	position: relative;
+}
+
+#app .main-app .tabButtons {
+	border-bottom: 1px solid #222;
+	display: flex;
+	justify-content: space-around;
+	font-size: 14px;
+}
+
+#app .main-app .tabButtons a:first-child {
+	color: #eee;
+	border-bottom: 1px solid #eee;
+	width: 50%;
+}
+
+#app .main-app .tabButtons a:last-child {
+	color: #666;
+	width: 50%;
 }
 
 #app .main-app .header .bio .avatar img {
