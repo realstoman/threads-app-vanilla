@@ -46,6 +46,7 @@ h1 {
 /* Title section */
 #app .title-section {
 	margin-bottom: 0.8em;
+	margin-top: -2em;
 }
 
 #app .title-section .intro {
