@@ -179,7 +179,8 @@ h1 {
 
 #app .main-app .header .bio .followers .dot,
 #app .main-app .post .contents .counts .dot,
-#app .main-app .carousel .contents .counts .dot {
+#app .main-app .carousel .contents .counts .dot,
+#app .main-app .reposted .repostedContent .contents .counts .dot {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -196,7 +197,7 @@ h1 {
 
 #app .main-app .header .cta a {
 	border: 1px solid #444;
-	width: 115px;
+	width: 155px;
 	border-radius: 5px;
 	padding: 3px;
 	color: #ddd;
@@ -235,8 +236,7 @@ h1 {
 
 /* Post */
 #app .main-app .post,
-#app .main-app .carousel,
-#app .main-app .reposted {
+#app .main-app .carousel {
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
@@ -334,6 +334,51 @@ h1 {
 #app .main-app .carousel .contents .carouselContent .imageCarousel img {
 	width: 220px;
 	border-radius: 5px;
+}
+
+/* Reposted */
+#app .main-app .reposted {
+	margin-top: 1em;
+}
+
+#app .main-app .reposted .youReposted {
+	display: flex;
+	justify-content: start;
+	align-items: left;
+	text-align: left;
+	gap: 12px;
+}
+
+#app .main-app .reposted .youReposted {
+	color: #777;
+	margin-left: 20px;
+}
+
+#app .main-app .rotateRepost {
+	transform: rotate(-15deg);
+}
+
+#app .main-app .rotateComment {
+	transform: rotate(270deg);
+}
+
+#app .main-app .reposted .youReposted span {
+	font-size: 12px;
+}
+
+#app .main-app .reposted .repostedContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	gap: 20px;
+	margin-top: 0.3em;
+	border-bottom: 1px solid #333;
+	padding-bottom: 0.8em;
+}
+
+#app .main-app .filled {
+	color: rgb(200, 21, 21);
+	fill: currentColor;
 }
 
 #app .main-app .header .bio .avatar img {
