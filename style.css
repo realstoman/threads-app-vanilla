@@ -235,7 +235,8 @@ h1 {
 
 /* Post */
 #app .main-app .post,
-#app .main-app .carousel {
+#app .main-app .carousel,
+#app .main-app .reposted {
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
@@ -246,29 +247,34 @@ h1 {
 }
 
 #app .main-app .post .users,
-#app .main-app .carousel .users {
+#app .main-app .carousel .users,
+#app .main-app .reposted .users {
 	width: 10%;
 }
 
 #app .main-app .post .users .author img,
-#app .main-app .carousel .users .author img {
+#app .main-app .carousel .users .author img,
+#app .main-app .reposted .users .author img {
 	width: 40px;
 	border-radius: 50%;
 }
 
 #app .main-app .post .contents,
-#app .main-app .carousel .contents {
+#app .main-app .carousel .contents,
+#app .main-app .reposted .contents {
 	width: 90%;
 	text-align: left;
 }
 
 #app .main-app .post .contents .username p,
-#app .main-app .carousel .contents .username p {
+#app .main-app .carousel .contents .username p,
+#app .main-app .reposted .contents .username p {
 	font-size: 14px;
 	margin: 0 0 3px 0;
 }
 
-#app .main-app .post .contents .content p {
+#app .main-app .post .contents .content p,
+#app .main-app .reposted .contents .content p {
 	font-size: 12px;
 	font-family: arial;
 	margin: 0;
@@ -276,27 +282,31 @@ h1 {
 }
 
 #app .main-app .post .contents .cta,
-#app .main-app .carousel .contents .cta {
+#app .main-app .carousel .contents .cta,
+#app .main-app .reposted .contents .cta {
 	display: flex;
 	gap: 17px;
 	margin-top: 10px;
 }
 
 #app .main-app .post .contents .cta a,
-#app .main-app .carousel .contents .cta a {
+#app .main-app .carousel .contents .cta a,
+#app .main-app .reposted .contents .cta a {
 	color: #ccc;
 	padding: 0;
 	margin: 0;
 }
 
 #app .main-app .post .contents .counts,
-#app .main-app .carousel .contents .counts {
+#app .main-app .carousel .contents .counts,
+#app .main-app .reposted .contents .counts {
 	display: flex;
 	gap: 10px;
 }
 
 #app .main-app .post .contents .counts p,
-#app .main-app .carousel .contents .counts p {
+#app .main-app .carousel .contents .counts p,
+#app .main-app .reposted .contents .counts p {
 	font-size: 12px;
 	color: #888;
 	margin: 0;
