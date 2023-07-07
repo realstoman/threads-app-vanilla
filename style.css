@@ -253,7 +253,7 @@ h1 {
 
 #app .main-app .post .users,
 #app .main-app .carousel .users,
-#app .main-app .reposted .users {
+#app .main-app .reposted .repostedContent .users {
 	width: 10%;
 	height: 100%;
 	display: flex;
@@ -263,23 +263,34 @@ h1 {
 
 #app .main-app .post .users .author img,
 #app .main-app .carousel .users .author img,
-#app .main-app .reposted .users .author img {
+#app .main-app .reposted .repostedContent .users .author img {
 	width: 40px;
 	border-radius: 50%;
 	/* position: absolute; */
 }
 
-#app .main-app .post .users .others {
-	margin-top: 1.6em;
+#app .main-app .post .users .others,
+#app .main-app .carousel .users .others {
+	margin-top: 2em;
+	margin-right: -1.2em;
 }
 
-#app .main-app .post .users .others img {
+#app .main-app .reposted .repostedContent .users .others {
+	margin-top: 4.7em;
+	margin-right: -1.2em;
+}
+
+#app .main-app .post .users .others img,
+#app .main-app .carousel .users .others img,
+#app .main-app .reposted .repostedContent .users .others img {
 	border-radius: 50%;
 	padding: 0;
 	margin: 0;
 }
 
-#app .main-app .post .users .others img:last-child {
+#app .main-app .post .users .others img:last-child,
+#app .main-app .carousel .users .others img:last-child,
+#app .main-app .reposted .repostedContent .users .others img:last-child {
 	margin-top: -5px;
 }
 
