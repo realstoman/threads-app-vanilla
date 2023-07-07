@@ -163,18 +163,29 @@ h1 {
 	margin-left: -15px;
 }
 
-#app .main-app .header .bio .followers p,
 #app .main-app .header .bio .followers p {
 	font-size: 12px;
 	color: #888;
 }
 
 #app .main-app .header .bio .followers .title {
-	margin-left: 10px;
+	margin-left: 8px;
 }
 
+#app .main-app .header .bio .followers .dot,
 #app .main-app .header .bio .followers .url {
-	margin-left: 8px;
+	margin-left: 4px;
+}
+
+#app .main-app .header .bio .followers .dot,
+#app .main-app .post .contents .counts .dot,
+#app .main-app .carousel .contents .counts .dot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #666;
+	margin-top: -6px;
 }
 
 #app .main-app .header .cta {
