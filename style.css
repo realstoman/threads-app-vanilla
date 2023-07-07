@@ -292,23 +292,25 @@ h1 {
 }
 
 /* Post carousel */
-#app .main-app .carousel .contents .carousel {
+#app .main-app .carousel .contents .carouselContent {
 	display: flex;
 	flex-direction: column;
 }
 
-#app .main-app .carousel .contents .carousel p {
+#app .main-app .carousel .contents .carouselContent p {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 5px 0;
+	font-size: 13px;
+	font-family: arial;
 }
 
-#app .main-app .carousel .contents .carousel .imageCarousel {
+#app .main-app .carousel .contents .carouselContent .imageCarousel {
 	display: flex;
 	overflow-x: scroll;
 	column-gap: 6px;
 }
 
-#app .main-app .carousel .contents .carousel .imageCarousel img {
+#app .main-app .carousel .contents .carouselContent .imageCarousel img {
 	width: 220px;
 	border-radius: 5px;
 }
