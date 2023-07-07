@@ -9,11 +9,13 @@
 	<body>
 		<div id="app">
 			<div class="title-section">
-				<div class="logo">
+				<div class="intro">
 					<img src="/public/logo-light.png" alt="Logo" />
-					<h1>Threads App UI</h1>
+					<div class="details">
+						<h1>Threads App UI</h1>
+						<p>Posts, image carousel, profile, menu</p>
+					</div>
 				</div>
-				<p>Posts, The image carousel, profile, sub-nav</p>
 			</div>
 			<div class="main-app">
 				<!-- Header section start -->
@@ -81,12 +83,66 @@
 				</div>
 				<!-- Header section end -->
 
+				<!-- Tabs section start -->
 				<div class="tabs">
 					<div class="tabButtons">
 						<a href="#">Threads</a>
 						<a href="#">Replies</a>
 					</div>
 				</div>
+				<!-- Tabs section end -->
+
+				<!-- Post design start -->
+				<div class="post">
+					<div class="users">
+						<div class="author">
+							<img
+								src="./public/stoman-profile.png"
+								alt="Author"
+							/>
+						</div>
+						<div class="others"></div>
+					</div>
+					<div class="contents">
+						<div class="username"><p>realstoman</p></div>
+						<div class="content">
+							<p>
+								Can't say no to programming, design, and coffee.
+							</p>
+						</div>
+						<div class="cta">
+							<a href="#">
+								<i data-feather="heart" width="18"></i>
+							</a>
+							<a href="#">
+								<i data-feather="message-circle" width="18"></i>
+							</a>
+							<a href="#">
+								<i data-feather="repeat" width="18"></i>
+							</a>
+							<a href="#">
+								<i data-feather="navigation" width="18"></i>
+							</a>
+						</div>
+						<div class="counts">
+							<div class="reply">
+								<p>467 replies</p>
+							</div>
+							<div class="likes">
+								<p>4,352 likes</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Post design end -->
+
+				<!-- Image carousel start -->
+				<div class="carousel"></div>
+				<!-- Image carousel end -->
+
+				<!-- RePosted post start -->
+				<div class="reposted"></div>
+				<!-- RePosted post end -->
 			</div>
 		</div>
 		<script type="module" src="/main.js"></script>
