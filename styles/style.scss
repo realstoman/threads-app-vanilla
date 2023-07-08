@@ -94,28 +94,28 @@ body {
 /* Post */
 
 /* Post carousel */
-#app .main-app .carousel .contents .carouselContent {
-	display: flex;
-	flex-direction: column;
-}
+// #app .main-app .carousel .contents .carouselContent {
+// 	display: flex;
+// 	flex-direction: column;
+// }
 
-#app .main-app .carousel .contents .carouselContent p {
-	padding: 0;
-	margin: 0 0 5px 0;
-	font-size: 13px;
-	font-family: arial;
-}
+// #app .main-app .carousel .contents .carouselContent p {
+// 	padding: 0;
+// 	margin: 0 0 5px 0;
+// 	font-size: 13px;
+// 	font-family: arial;
+// }
 
-#app .main-app .carousel .contents .carouselContent .imageCarousel {
-	display: flex;
-	overflow-x: scroll;
-	column-gap: 6px;
-}
+// #app .main-app .carousel .contents .carouselContent .imageCarousel {
+// 	display: flex;
+// 	overflow-x: scroll;
+// 	column-gap: 6px;
+// }
 
-#app .main-app .carousel .contents .carouselContent .imageCarousel img {
-	width: 220px;
-	border-radius: 5px;
-}
+// #app .main-app .carousel .contents .carouselContent .imageCarousel img {
+// 	width: 220px;
+// 	border-radius: 5px;
+// }
 
 /* Reposted */
 #app .main-app .reposted {
