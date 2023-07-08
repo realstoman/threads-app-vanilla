@@ -1,0 +1,25 @@
+.profile-tabs {
+	margin-top: 20px;
+	position: relative;
+
+	.tab-buttons {
+		border-bottom: 1px solid #333;
+		display: flex;
+		justify-content: space-around;
+		font-size: 14px;
+
+		a {
+			padding-bottom: 0.3em;
+			&:first-child {
+				color: #eee;
+				border-bottom: 1px solid #eee;
+				width: 50%;
+			}
+
+			&:last-child {
+				color: #666;
+				width: 50%;
+			}
+		}
+	}
+}
