@@ -1,4 +1,6 @@
 .header {
+	padding: 1.5em 1em 0.5em 1em;
+
 	.settings,
 	.bio .handles {
 		display: flex;
@@ -9,12 +11,14 @@
 	// Profile settings
 	.settings {
 		// Left icon
-		a {
-			color: #efefef;
+		.left-section {
+			a {
+				color: #efefef;
 
-			&:hover {
-				color: white;
-				cursor: pointer;
+				&:hover {
+					color: white;
+					cursor: pointer;
+				}
 			}
 		}
 
@@ -54,10 +58,18 @@
 					}
 				}
 			}
+
+			.avatar {
+				img {
+					width: 50px;
+					border-radius: 50%;
+				}
+			}
 		}
 
 		// Bio description
 		.description {
+			margin-bottom: 0.8em;
 			p {
 				font-size: 14px;
 				text-align: left;
@@ -114,7 +126,7 @@
 
 		a {
 			border: 1px solid #444;
-			width: 155px;
+			width: 168px;
 			border-radius: 5px;
 			padding: 3px;
 			color: #ddd;
