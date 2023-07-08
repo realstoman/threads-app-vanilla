@@ -1,0 +1,130 @@
+.header {
+	.settings,
+	.bio .handles {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 15px;
+	}
+
+	// Profile settings
+	.settings {
+		// Left icon
+		a {
+			color: #efefef;
+
+			&:hover {
+				color: white;
+				cursor: pointer;
+			}
+		}
+
+		// Right icons
+		.right-section {
+			a:first-child {
+				margin-right: 10px;
+			}
+		}
+	}
+
+	// Profile bio
+	.bio {
+		// User handle, name and avatar
+		.handles {
+			.name {
+				margin-top: 7px;
+
+				h2 {
+					margin: 0;
+					font-size: 20px;
+					text-align: left;
+				}
+
+				.username {
+					display: flex;
+					justify-content: start;
+					font-size: 13px;
+
+					span:last-child {
+						margin-left: 10px;
+						background-color: #333;
+						color: #999;
+						padding: 2px 6px;
+						border-radius: 10px;
+						font-size: 10px;
+					}
+				}
+			}
+		}
+
+		// Bio description
+		.description {
+			p {
+				font-size: 14px;
+				text-align: left;
+			}
+		}
+
+		// Followers
+		.followers {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			gap: 4px;
+			width: 100%;
+			text-align: left;
+
+			.users {
+				img {
+					width: 20px;
+					border-radius: 50%;
+					border: 2px solid #111;
+				}
+			}
+
+			p {
+				font-size: 12px;
+				color: #888;
+			}
+
+			.title {
+				margin-left: 8px;
+			}
+
+			.dot {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				color: #666;
+				margin-top: -6px;
+			}
+
+			.dot,
+			.url {
+				margin-left: 4px;
+			}
+		}
+	}
+
+	// Edit and share profile buttons
+	.cta {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 7px;
+
+		a {
+			border: 1px solid #444;
+			width: 155px;
+			border-radius: 5px;
+			padding: 3px;
+			color: #ddd;
+			font-size: 14px;
+			box-shadow: 0px 1px 2px 2px rgba(39, 38, 38, 0.1);
+
+			&:hover {
+				color: #ffffff;
+				box-shadow: 0px 1px 4px 4px rgba(110, 107, 107, 0.1);
+			}
+		}
+	}
+}
