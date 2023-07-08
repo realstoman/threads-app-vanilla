@@ -6,7 +6,7 @@
 	z-index: 1000;
 	will-change: transform;
 	transform: translateZ(0);
-	display: flex;
+	display: none;
 	height: 50px;
 	background-color: transparent;
 	padding: 0 0.8em 0.4em 0.8em;
@@ -25,13 +25,17 @@
 			align-items: center;
 
 			.nav-icon {
-				// color: #666;
+				color: #666;
 				width: 1.4em;
+
+				.bottom-nav__item--active {
+					color: #fff;
+				}
 			}
 		}
+	}
 
-		.bottom-nav__item--active {
-			color: #fff;
-		}
+	@media screen and (max-width: 480px) {
+		display: flex;
 	}
 }
