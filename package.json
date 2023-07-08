@@ -13,6 +13,7 @@
     "vite": "^4.4.0"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "feather-icons": "^4.29.0"
   }
 }
