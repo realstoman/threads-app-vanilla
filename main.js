@@ -1,4 +1,4 @@
-import './style.css';
+import './styles/style.scss';
 import feather from 'feather-icons';
 
 feather.replace();
