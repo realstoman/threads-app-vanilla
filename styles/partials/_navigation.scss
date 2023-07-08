@@ -25,17 +25,13 @@
 			align-items: center;
 
 			.nav-icon {
-				color: #666;
+				// color: #666;
 				width: 1.4em;
 			}
 		}
-	}
 
-	.bottom-nav__item--active {
-		color: #fff;
-
-		.nav-icon {
-			color: #eee;
+		.bottom-nav__item--active {
+			color: #fff;
 		}
 	}
 }
