@@ -135,26 +135,8 @@ body {
 	margin-left: 20px;
 }
 
-#app .main-app .rotateRepost {
-	transform: rotate(-15deg);
-}
-
 #app .main-app .rotateComment {
 	transform: rotate(270deg);
-}
-
-#app .main-app .reposted .youReposted span {
-	font-size: 12px;
-}
-
-#app .main-app .reposted .repostedContent {
-	display: flex;
-	justify-content: space-between;
-	align-items: start;
-	gap: 20px;
-	margin-top: 0.3em;
-	border-bottom: 1px solid #333;
-	padding-bottom: 0.8em;
 }
 
 #app .main-app .filled {

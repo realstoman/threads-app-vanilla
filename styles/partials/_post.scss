@@ -82,6 +82,7 @@
 				display: flex;
 				overflow-x: scroll;
 				column-gap: 6px;
+				margin-top: 0.3em;
 
 				img {
 					width: 220px;
@@ -114,6 +115,30 @@
 				color: #888;
 				margin: 0;
 			}
+
+			.dot {
+				text-align: center;
+				color: #666;
+				margin-top: -0.4em;
+			}
 		}
+	}
+}
+
+.reposted-title {
+	display: flex;
+	justify-content: start;
+	align-items: left;
+	text-align: left;
+	gap: 12px;
+	color: #777;
+	margin-left: 40px;
+
+	span {
+		font-size: 12px;
+	}
+
+	.rotateRepost {
+		transform: rotate(-15deg);
 	}
 }
