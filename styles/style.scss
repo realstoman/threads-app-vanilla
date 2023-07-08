@@ -1,6 +1,7 @@
 // Import partials
 @import './partials/header';
 @import './partials/navigation';
+@import './partials/post';
 @import './partials/footer';
 
 :root {
@@ -200,115 +201,6 @@ body {
 }
 
 /* Post */
-/* #app .main-app .post {
-	position: relative;
-	border-left: 1px solid #444;
-} */
-
-#app .main-app .post {
-	display: flex;
-	justify-content: space-between;
-	align-items: start;
-	gap: 20px;
-	margin-top: 1em;
-	padding-bottom: 0.8em;
-	padding: 0 0.8em;
-}
-
-#app .main-app .post .users {
-	width: 12%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: middle;
-}
-
-#app .main-app .post .users .author img {
-	width: 40px;
-	border-radius: 50%;
-	// position: absolute;
-}
-
-#app .main-app .post .users .others {
-	// margin-top: 4em;
-	// margin-right: em;
-	align-self: flex-end;
-}
-
-#app .main-app .reposted .repostedContent .users .others {
-	margin-top: 4.7em;
-	margin-right: -1.2em;
-}
-
-#app .main-app .post .users .others img {
-	border-radius: 50%;
-	padding: 0;
-	margin: 0;
-}
-
-#app .main-app .post .users .others img:last-child {
-	margin-top: -5px;
-}
-
-#app .main-app .post .contents {
-	width: 88%;
-	text-align: left;
-}
-
-#app .main-app .post .contents .top,
-#app .main-app .post .contents .top .timeAndShare {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	text-align: center;
-}
-
-#app .main-app .post .contents .top p {
-	font-size: 14px;
-	margin: 0;
-}
-
-#app .main-app .post .contents .top span {
-	font-size: 10px;
-	margin-right: 12px;
-	color: #888;
-}
-
-#app .main-app .post .contents .top a {
-	margin-top: 7px;
-}
-
-#app .main-app .post .contents .content p {
-	font-size: 12px;
-	font-family: arial;
-	margin: 0;
-	color: #ddd;
-}
-
-#app .main-app .post .contents .cta {
-	display: flex;
-	gap: 1.1em;
-	margin-top: 0.8em;
-}
-
-#app .main-app .post .contents .cta a {
-	color: #ccc;
-	padding: 0;
-	margin: 0;
-}
-
-#app .main-app .post .contents .counts {
-	display: flex;
-	gap: 0.7em;
-	margin-top: 0.6em;
-}
-
-#app .main-app .post .contents .counts p {
-	font-size: 12px;
-	color: #888;
-	margin: 0;
-}
 
 /* Post carousel */
 #app .main-app .carousel .contents .carouselContent {
