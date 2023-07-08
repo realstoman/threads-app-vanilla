@@ -12,6 +12,7 @@ navItems.forEach(function (e, i) {
 		navItems.forEach(function (e2, i2) {
 			e2.classList.remove('bottom-nav__item--active');
 		});
+
 		this.classList.add('bottom-nav__item--active');
 	});
 });
