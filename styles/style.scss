@@ -1,4 +1,5 @@
 // Import partials
+@import './partials/header';
 @import './partials/navigation';
 @import './partials/footer';
 
@@ -33,11 +34,9 @@ a:hover {
 }
 
 body {
-	margin: 0;
-	padding: 0;
 	display: flex;
 	place-items: center;
-	min-width: 320px;
+	min-width: 300px;
 	min-height: 100vh;
 }
 

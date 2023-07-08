@@ -1,0 +1,8 @@
+header {
+	.logo {
+		width: 3em;
+		@media screen and (max-width: 480px) {
+			width: 2.2em;
+		}
+	}
+}
