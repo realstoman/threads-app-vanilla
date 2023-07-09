@@ -38,32 +38,39 @@
 
 	// Post actual contents
 	.contents {
-		width: 88%;
+		width: 87%;
 		text-align: left;
 
 		// Post top section (Username, time and share)
-		.top {
+
+		.top,
+		.timeAndShare {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			text-align: center;
+		}
 
+		.top {
 			// Author username
 			p {
 				font-size: 14px;
 				margin: 0;
 			}
 
-			// Posted time
-			span {
-				font-size: 10px;
-				margin-right: 12px;
-				color: #888;
-			}
+			.timeAndShare {
+				padding-right: 0.4em;
+				// Posted time
+				span {
+					font-size: 10px;
+					margin-right: 12px;
+					color: #888;
+				}
 
-			// Share post
-			a {
-				margin-top: 7px;
+				// Share post
+				a {
+					margin-top: 7px;
+				}
 			}
 		}
 
