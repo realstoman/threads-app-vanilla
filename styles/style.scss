@@ -49,100 +49,20 @@ body {
 	padding: 2rem;
 	text-align: center;
 
+	/* Custom elements and design */
 	.separator {
 		border-bottom: 1px solid #222;
 		margin: 0.8em 0;
 	}
-}
 
-/* Mobile sizing */
-#app .main-app {
-	display: flex;
-	flex-direction: column;
-}
+	.rotateComment {
+		transform: rotate(270deg);
+	}
 
-/* Header section */
-
-#app .main-app .header .bio .followers .users img:nth-child(2),
-#app .main-app .header .bio .followers .users img:nth-child(3) {
-	margin-left: -15px;
-}
-
-/* Tabs */
-#app .main-app .tabs {
-	margin-top: 20px;
-	position: relative;
-}
-
-#app .main-app .tabButtons {
-	border-bottom: 1px solid #333;
-	display: flex;
-	justify-content: space-around;
-	font-size: 14px;
-}
-
-#app .main-app .tabButtons a:first-child {
-	color: #eee;
-	border-bottom: 1px solid #eee;
-	width: 50%;
-}
-
-#app .main-app .tabButtons a:last-child {
-	color: #666;
-	width: 50%;
-}
-
-/* Post */
-
-/* Post carousel */
-// #app .main-app .carousel .contents .carouselContent {
-// 	display: flex;
-// 	flex-direction: column;
-// }
-
-// #app .main-app .carousel .contents .carouselContent p {
-// 	padding: 0;
-// 	margin: 0 0 5px 0;
-// 	font-size: 13px;
-// 	font-family: arial;
-// }
-
-// #app .main-app .carousel .contents .carouselContent .imageCarousel {
-// 	display: flex;
-// 	overflow-x: scroll;
-// 	column-gap: 6px;
-// }
-
-// #app .main-app .carousel .contents .carouselContent .imageCarousel img {
-// 	width: 220px;
-// 	border-radius: 5px;
-// }
-
-/* Reposted */
-#app .main-app .reposted {
-	margin-top: 1em;
-}
-
-#app .main-app .reposted .youReposted {
-	display: flex;
-	justify-content: start;
-	align-items: left;
-	text-align: left;
-	gap: 12px;
-}
-
-#app .main-app .reposted .youReposted {
-	color: #777;
-	margin-left: 20px;
-}
-
-#app .main-app .rotateComment {
-	transform: rotate(270deg);
-}
-
-#app .main-app .filled {
-	color: rgb(200, 21, 21);
-	fill: currentColor;
+	.filled {
+		color: rgb(200, 21, 21);
+		fill: currentColor;
+	}
 }
 
 /* Media Queries */
@@ -168,8 +88,4 @@ body {
 		margin: 0;
 		padding: 0;
 	}
-}
-
-/* Tablet Size */
-@media screen and (max-width: 768px) {
 }
