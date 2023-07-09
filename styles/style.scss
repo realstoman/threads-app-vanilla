@@ -4,8 +4,10 @@
 @import './partials/post';
 @import './partials/profile';
 @import './partials/profileTabs';
+@import './partials/search';
 @import './partials/footer';
 
+// Base variables
 :root {
 	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -22,6 +24,7 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+// General Resets
 * {
 	padding: 0;
 	margin: 0;
@@ -52,7 +55,7 @@ body {
 	/* Custom elements and design */
 	.separator {
 		border-bottom: 1px solid #222;
-		margin: 0.8em 0;
+		margin: 0.1em 0;
 	}
 
 	.rotateComment {
