@@ -42,8 +42,7 @@
 		text-align: left;
 
 		// Post top section (Username, time and share)
-		.top,
-		.top .timeAndShare {
+		.top {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
