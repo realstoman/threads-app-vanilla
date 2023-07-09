@@ -1,5 +1,26 @@
 .search {
 	display: flex;
 	flex-direction: column;
-	background-color: red;
+
+	.title {
+		h1 {
+			font-size: 2.5em;
+		}
+	}
+
+	.search-from {
+		width: 100%;
+
+		form {
+			input {
+				width: 100%;
+				height: 2em;
+			}
+		}
+	}
+
+	.account-to-follow {
+		display: flex;
+		justify-content: space-between;
+	}
 }
