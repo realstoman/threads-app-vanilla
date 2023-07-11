@@ -53,9 +53,19 @@
 
 		.top {
 			// Author username
-			p {
+			.if-verified {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.if-verified p {
 				font-size: 14px;
-				margin: 0;
+				margin: 0 0.4em 0 0;
+			}
+
+			.if-verified img {
+				width: 13px;
 			}
 
 			.timeAndShare {
@@ -77,10 +87,11 @@
 		// Post post content
 		.content {
 			width: 100%;
+
 			p {
 				font-size: 12px;
 				font-family: arial;
-				margin: 0;
+				margin: 0 0 0.7em 0;
 				color: #ddd;
 			}
 
