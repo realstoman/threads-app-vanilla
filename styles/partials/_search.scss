@@ -3,11 +3,12 @@
 	flex-direction: column;
 	align-items: top;
 	text-align: left;
-	padding: 0.7em 1em;
+	padding: 0.7em 1em 4em 1em;
+	max-width: 100%;
 
 	.title {
 		h1 {
-			font-size: 2.5em;
+			font-size: 2.3em;
 		}
 	}
 
@@ -35,7 +36,8 @@
 		margin: 0.6em 0;
 
 		.user {
-			width: 17%;
+			width: 15%;
+
 			img {
 				border-radius: 50%;
 				width: 38px;
@@ -43,13 +45,29 @@
 		}
 
 		.content {
-			width: 53%;
+			width: 55%;
 			display: flex;
 			flex-direction: column;
 
 			.username {
 				color: #eee;
 				font-size: 1.1em;
+			}
+
+			.if-verified {
+				display: flex;
+				justify-content: start;
+				align-items: center;
+			}
+
+			.if-verified .username {
+				color: #eee;
+				font-size: 1.1em;
+				margin: 0 0.4em 0 0;
+			}
+
+			.if-verified img {
+				width: 13px;
 			}
 
 			.name {

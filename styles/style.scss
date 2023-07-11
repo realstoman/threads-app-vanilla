@@ -48,9 +48,14 @@ body {
 
 #app {
 	max-width: 768px;
+	width: 100%;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: 0;
 	text-align: center;
+
+	.main-content {
+		padding-bottom: 4em;
+	}
 
 	/* Custom elements and design */
 	.separator {
