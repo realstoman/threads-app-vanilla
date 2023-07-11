@@ -1,14 +1,14 @@
 .post {
 	display: flex;
 	justify-content: space-between;
-	align-items: start;
+	align-items: flex-start;
 	gap: 20px;
 	padding-bottom: 0.8em;
 	padding: 0.7em 1em;
 
 	// Author's and other users avatars
 	.users {
-		width: 12%;
+		width: 11%;
 		height: 100%;
 		display: flex;
 		flex-direction: column;
@@ -17,7 +17,7 @@
 
 		// Author avatar
 		.author img {
-			width: 40px;
+			width: 2em;
 			border-radius: 50%;
 		}
 
@@ -40,6 +40,7 @@
 	.contents {
 		width: 87%;
 		text-align: left;
+		top: 0;
 
 		// Post top section (Username, time and share)
 
@@ -148,14 +149,14 @@
 	}
 }
 
-.reposted-title {
+.if-reposted {
 	display: flex;
 	justify-content: start;
 	align-items: left;
 	text-align: left;
 	gap: 12px;
 	color: #777;
-	margin-left: 40px;
+	margin: 0.7em 0 -0.7em 2.5em;
 
 	span {
 		font-size: 12px;
