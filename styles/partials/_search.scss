@@ -3,8 +3,8 @@
 	flex-direction: column;
 	align-items: top;
 	text-align: left;
-	padding: 0.7em 1em;
-	width: 100%;
+	padding: 0.7em 1em 4em 1em;
+	max-width: 100%;
 
 	.title {
 		h1 {
@@ -36,7 +36,7 @@
 		margin: 0.6em 0;
 
 		.user {
-			width: 17%;
+			width: 15%;
 
 			img {
 				border-radius: 50%;
@@ -45,7 +45,7 @@
 		}
 
 		.content {
-			width: 58%;
+			width: 55%;
 			display: flex;
 			flex-direction: column;
 
@@ -95,7 +95,7 @@
 		}
 
 		.follow {
-			width: 18%;
+			width: 30%;
 
 			button {
 				background-color: transparent;
