@@ -1,0 +1,137 @@
+.activity {
+	display: flex;
+	flex-direction: column;
+	align-items: top;
+	text-align: left;
+	padding: 0.7em 1em 4em 1em;
+
+	.title {
+		h1 {
+			font-size: 2.3em;
+		}
+	}
+
+	.filters {
+		display: flex;
+		overflow-x: scroll;
+		column-gap: 6px;
+		margin: 0.3em 0 0.8em 0;
+
+		button {
+			width: 7.5em;
+			padding: 0.5em 0;
+			border-radius: 0.5em;
+			background-color: transparent;
+			border: 1px solid #444;
+		}
+	}
+
+	.notifications {
+		.user-activity {
+			display: flex;
+			justify-content: flex-start;
+			align-items: start;
+			gap: 0.8em;
+			margin: 0.9em 0 0.7em 0;
+
+			.avatar {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				img {
+					width: 35px;
+					border-radius: 50%;
+				}
+
+				.icon-like,
+				.icon-comment,
+				.icon-user {
+					color: #fff;
+					border-radius: 50%;
+					border: 2px solid #222;
+					text-align: center;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 20px;
+					height: 20px;
+					margin-left: -0.6em;
+					margin-top: 0.5em;
+
+					.activity-icon {
+						width: 10px;
+						fill: #fff;
+					}
+				}
+
+				.icon-like {
+					background-color: red;
+				}
+
+				.icon-comment {
+					background-color: rgb(37, 150, 215);
+				}
+
+				.icon-user {
+					background-color: rgb(102, 21, 136);
+				}
+			}
+
+			.content {
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
+
+				.left-section {
+					.user {
+						display: flex;
+						justify-content: flex-start;
+						align-items: flex-start;
+						gap: 0.4em;
+
+						.username {
+							display: flex;
+							gap: 0.2em;
+							p {
+								font-size: 1.1em;
+								font-weight: 400;
+							}
+
+							.if-verified img {
+								width: 13px;
+							}
+						}
+
+						span {
+							font-size: 0.9em;
+							color: #666;
+						}
+					}
+
+					.post-content {
+						font-size: 0.9em;
+						color: #666;
+
+						p {
+							font-size: 1em;
+							color: #eee;
+							margin-top: 0.3em;
+						}
+					}
+				}
+
+				.if-follow-btn {
+					button {
+						background-color: transparent;
+						border-radius: 0.7em;
+						padding: 0.5em 1.5em;
+						width: 100px;
+						border: 1px solid #333;
+						font-size: 0.8em;
+					}
+				}
+			}
+		}
+	}
+}
