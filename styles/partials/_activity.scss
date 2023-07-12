@@ -44,7 +44,8 @@
 				}
 
 				.icon-like,
-				.icon-comment {
+				.icon-comment,
+				.icon-user {
 					color: #fff;
 					border-radius: 50%;
 					border: 2px solid #222;
@@ -70,35 +71,64 @@
 				.icon-comment {
 					background-color: rgb(37, 150, 215);
 				}
+
+				.icon-user {
+					background-color: rgb(102, 21, 136);
+				}
 			}
 
 			.content {
-				.user {
-					display: flex;
-					justify-content: flex-start;
-					align-items: center;
-					text-align: center;
-					gap: 0.4em;
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-start;
+				width: 100%;
 
-					p {
-						font-size: 1.1em;
-						font-weight: 400;
+				.left-section {
+					.user {
+						display: flex;
+						justify-content: flex-start;
+						align-items: flex-start;
+						gap: 0.4em;
+
+						.username {
+							display: flex;
+							gap: 0.2em;
+							p {
+								font-size: 1.1em;
+								font-weight: 400;
+							}
+
+							.if-verified img {
+								width: 13px;
+							}
+						}
+
+						span {
+							font-size: 0.9em;
+							color: #666;
+						}
 					}
 
-					span {
+					.post-content {
 						font-size: 0.9em;
 						color: #666;
+
+						p {
+							font-size: 1em;
+							color: #eee;
+							margin-top: 0.3em;
+						}
 					}
 				}
 
-				.post-content {
-					font-size: 0.9em;
-					color: #666;
-
-					p {
-						font-size: 1em;
-						color: #eee;
-						margin-top: 0.3em;
+				.if-follow-btn {
+					button {
+						background-color: transparent;
+						border-radius: 0.7em;
+						padding: 0.5em 1.5em;
+						width: 100px;
+						border: 1px solid #333;
+						font-size: 0.8em;
 					}
 				}
 			}
