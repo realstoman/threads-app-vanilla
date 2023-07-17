@@ -1,0 +1,43 @@
+.suggested-accounts {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-top: 0.5rem /* 8px */;
+	margin-bottom: 0.5rem /* 8px */;
+	width: 100%;
+
+	.title {
+		padding-left: 1rem /* 16px */;
+		padding-right: 1rem /* 16px */;
+
+		h2 {
+			font-size: 0.875rem /* 14px */;
+			line-height: 1.25rem /* 20px */;
+		}
+	}
+
+	.content {
+		padding-left: 1rem; /* 16px */
+		padding-right: 1rem; /* 16px */
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		-webkit-justify-content: flex-start;
+		justify-content: flex-start;
+		gap: 0.25rem /* 4px */;
+		overflow-x: scroll;
+		margin-top: 0.5rem; /* 8px */
+		scroll-behavior: smooth;
+		scroll-padding-top: 0.5rem /* 8px */;
+
+		.account-card {
+			border-radius: 10px;
+			background-color: black;
+			padding-left: 1.25rem; /* 20px */
+			padding-right: 1.25rem; /* 20px */
+		}
+	}
+}
