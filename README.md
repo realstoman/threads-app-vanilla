@@ -1,6 +1,6 @@
 # Threads App - Vanilla CSS/Sass
 
-This is a simple project where I designed the important parts of the newly launched app Threads by Meta. It's coded using CSS/Sass. This version of the Threads App project is just the UI. For a more dynamic one, please visit the [Thread App React](https://github.com/realstoman/threads-app-vanilla) version.
+This is a simple project where I designed the important parts of the newly launched app Threads by Meta. It's coded using CSS/Sass. This version of the Threads App project is just the UI. For a more dynamic one, please visit the [Thread App React/Next.js](https://github.com/realstoman/threads-app-vanilla) version.
 
 ![Vuejs-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/140909796-815239e4-a986-46ad-bbd0-4b166127bbb8.JPG)
 
