@@ -434,48 +434,32 @@
 
 					<div class="separator"></div>
 
-					<div className="my-2 w-full">
-						<div className="px-4">
-							<h2 className="text-sm text-gray-200">
-								Suggested for you
-							</h2>
+					<div class="suggested-accounts">
+						<div class="title">
+							<h2>Suggested for you</h2>
 						</div>
-						<div
-							className="flex justify-start gap-1 overflow-x-scroll mt-2 px-4 scroll-smooth scroll-pt-2"
-						>
-							<div
-								className="card flex flex-col items-center justify-center border border-[#222] rounded-xl text-center px-5 pt-1 pb-2 bg-[#000]"
-							>
-								<FiX
-									className="w-4 font-bold self-end text-[#777]"
-								/>
+						<div class="content">
+							<div class="account-card">
+								<i data-feather="x"></i>
 								<img
 									src="./public/logo/apple-logo.jpg"
 									alt="Logo"
 									width="70"
-									className="rounded-full"
 								/>
-								<div className="mb-2 mt-2">
-									<div className="flex items-center gap-1">
-										<p className="text-sm">apple</p>
+								<div>
+									<div class="account-info">
+										<p class="username">apple</p>
 
 										<img
 											src="./public/avatars/blue-checkmark.png"
 											width="16"
 											alt="Logo"
-											className="rounded-full"
 										/>
 									</div>
-									<p className="text-xs text-[#777]">
-										Apple Inc
-									</p>
+									<p class="account-name">Apple Inc</p>
 								</div>
 
-								<button
-									className="border border-[#333]  text-xs px-8 py-1.5 w-full rounded-lg"
-								>
-									Follow
-								</button>
+								<button class="follow-btn">Follow</button>
 							</div>
 						</div>
 					</div>
